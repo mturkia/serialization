@@ -56,7 +56,7 @@ handlers are registered.
 Looking for example at the repeater menu, you can see new menu items
 there provided by serialization.rb as shown on following screen capture:
 
-![Menus](images/menu2.png)
+![Menus](serialization/images/menu2.png)
 
 New items are "Reload JARs" that will load all .jar files from the lib
 directory. "Drop to IRB" drops the starting shell to IRB allowing
@@ -74,7 +74,7 @@ normally. The additional information in the History tab is the original
 request and edited response showing the serialized format. However, this
 information is not that interesting to us normally.
 
-![Menus](images/history.png)
+![Proxy](serialization/images/history.png)
 
 ### Intruder 
 
@@ -84,5 +84,5 @@ also seen in Proxy tool). There is an additional header field
 module to re-serialize the data before sending it out (this header is
 stripped of from the request that is actually sent out).
 
-![Menus](images/intruder.png)
+![Intruder](serialization/images/intruder.png)
 
